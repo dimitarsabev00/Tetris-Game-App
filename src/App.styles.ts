@@ -1,12 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import bgImage from './assets/images/background-image-for-app.png';
+import bgImage from "./assets/images/background-image-for-app.png";
 
 export const StyledTetrisWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   background: url(${bgImage}) #000;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
 `;
 
@@ -17,7 +18,7 @@ export const StyledTetris = styled.div`
   margin: 0 auto;
   max-width: 900px;
 
-  aside {
+  .sideBar-container {
     width: 100%;
     max-width: 200px;
     display: block;
